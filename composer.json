@@ -1,0 +1,27 @@
+{
+  "name": "lonnieezell/BonfireNext",
+  "type": "project",
+  "description": "A project kickstart based on CodeIgniter4",
+  "homepage": "https://cibonfire.com",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "codeigniter4/codeigniter4": "dev-develop",
+    "myth/auth": "^1.0@beta"
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "lonnieezell/vulcan": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/codeigniter4/CodeIgniter4"
+    }
+  ]
+}
